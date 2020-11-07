@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Live Chat</title>
+  </head>
+  <body>
+    <!-- Code Here -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript">
+      var socket = io();
+
+      socket.on("chat message", function(msg) {
+        console.log(msg);
+      });
+    </script>
+  </body>
+</html>
