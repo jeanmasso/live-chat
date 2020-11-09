@@ -1,0 +1,15 @@
+.body {
+    box-sizing: border-box;
+}
+
+.card-body li {
+    list-style: none;
+}
+
+.card-body p:first-child {
+    background-color: whitesmoke;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    position: relative;
+}
